@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/codemirror.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/codemirror.min.js"></script>
+<link rel="stylesheet" href="codemirror.css">
+<script src="codemirror.js"></script>
+<script src="addon/edit/closetag.js"></script> <!-- Include the xml-fold add-on -->
+<script src="mode/htmlmixed/htmlmixed.js"></script>
+
+
+    <title>Code Editor</title>
+</head>
+<body class="image">
+    <h2><center>Code Editor</center></h2>
+<div class="main-box" image > <!--parent-->
+    <div class="child"  class="panel"> <!--child-1-->
+       <table class="center">
+        <tr>
+        <td id="font"><b>Files</b></td> 
+        </tr> 
+        <tr>
+            <td>file1.html</td>
+        </tr>
+        <tr>
+            <td>file2.html</td>
+        </tr>
+        <tr>
+            <td>index.html</td>
+        </tr>
+        <tr>
+            <td>name.js</td>
+        </tr>
+        <tr>
+            <td>style.css</td>
+        </tr>
+        <tr>
+            <td>stylecss1.css</td>
+        </tr>
+        <tr>
+            <td>file3.html</td>
+        </tr>
+        <tr>
+            <td>new.java</td>
+        </tr>
+        <tr>
+            <td>folder.py</td>
+        </tr>
+        <tr>
+            <td>name.js</td>
+        </tr>
+        <tr>
+            <td>App.js</td>
+        </tr>
+        <tr>
+            <td>navbar.css</td>
+        </tr>
+        <tr>
+            <td>class.html</td>
+        </tr>
+        <tr>
+            <td>select.js</td>
+        </tr>
+        
+       </table>
+    </div>
+    <div class="code-editor" class="child" id="try">  <!--child-2-->
+
+        <div class="editor-header">
+            <button id="copy-button">Copy</button>
+            <button id="save-button">Save</button>
+            <button id="lock-button">Lock</button>
+        </div>
+
+        <textarea  id="code-area" placeholder="Type your code here..."></textarea>
+       
+    </div>
+        
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

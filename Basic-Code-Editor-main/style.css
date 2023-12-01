@@ -1,0 +1,122 @@
+.code-editor {
+    border: 1px solid #cccbcb;
+    padding: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #e1dede;
+    width: 90%;
+    
+}
+body {
+    background-image: url('new.jpg');
+    /* background-color: #436fb5; */
+    /* background-image: linear-gradient(rgb(77, 161, 209), rgb(182, 182, 59), rgb(85, 85, 218)); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* To remove default body margin */
+    padding: 0; /* To remove default body padding */
+}
+#code-area{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.editor-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      /* background-image: url('tech.jpeg'); */
+      background-color: #a2c0d8;
+      /* border: 2px solid rgb(10, 10, 10); */
+      border-radius: 3px;
+}
+
+button{
+        padding: 5px 10px;
+        background-color: #198bbb;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        border-width: 2px;
+        border-radius: 4px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+textarea {
+      width: 97.5%;
+      height: 600px;
+      border: 1px solid #f1ebeb;
+      border-radius: 5px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+.panel{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: inline-block;
+}
+.child{
+    float: right; 
+    width: 15%;
+    margin-left: 5px;
+}
+.main-box{
+    display: flex;
+    height: 600px;
+}
+table{
+    height: 100%;
+    background-color: #a2c0d8;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+} 
+.center{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    /* margin-left: 5px; */
+    border-spacing: 15px;
+}
+
+.center:hover{
+    border: 2px solid rgb(29, 32, 208);
+}
+td:hover{
+    border: 2px solid rgb(16, 16, 16); 
+}
+#font{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50%;
+    border: #0f1111;
+    border-style: solid;
+}
+tr{
+    margin: 5%;
+}
+h2{
+    
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #b5c5e0;
+    border: 2px solid black;  
+    border-radius: 5px;
+}
+/* Define the locked state style */
+#code-area.locked {
+    background-color: #a39e9e; /* Change this to the desired gray color */
+  }
+  
+
+  
+  
